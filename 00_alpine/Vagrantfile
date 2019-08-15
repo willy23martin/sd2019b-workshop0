@@ -1,6 +1,9 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
+# William Chávez
+
+# Script to install apache in alpine38 GuestOS:
 $installApache2Script = <<-SCRIPT
 echo WMC is provisioning apache 2 in Alpine
 apk add apache2
